@@ -1,2 +1,2 @@
 # KriyaEvents
-This 
+KRIYA - The brainchild of the Students Union is the conglomeration of the erudite brains across the Indian heartland. It is the biggest conflux of students, industry, and academia for a thoroughly enriching experience. Be it the video conferencing from the renowned professors of MIT, NASA, Nobel Laureates, or the guest lecture from industry stalwarts or eminent personalities around the country, Kriya has it.
