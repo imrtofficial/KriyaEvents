@@ -1,28 +1,36 @@
 <html>
 <head>
 <title>Feedback form</title>
+<style>
+    #button input{
+        border: 1px solid black;
+        background-color: rgba(128,0,128,0.5);
+        height: 40px;
+        width: 100px;
+        font-size: x-large;
+    }
+</style>
 </head>
 <body bgcolor="mistyrose" text="purple">
-<form action="Notification.html" method="get">
-</form>
+<form action="notification.html" method="post">
 <table align="center" cellspacing="10>
 <tr>
 <td colspan="2" align="center"><H1><center>Register for CLIP and CLAMP </center></H1></TD></tr>
 <tr>
 <td>Participant Name: </td>
-<td><Input type="text" name="usrname"></td>
+<td><Input type="text" name="usrname" placeholder="Enter name" required ></td>
 </tr>
 <tr>
 <td>Participant Email Id: </td>
-<td><Input type="text" name="usrmail"></td>
+<td><Input type="text" name="usrmail" placeholder="Enter Email Id" required></td>
 </tr>
 <tr>
 <td>Participant Mobile Number: </td>
-<td><Input type="text" name="usrmobile"></td>
+<td><Input type="text" name="usrmobile" placeholder="Enter Mobile number" required></td>
 </tr>
 <tr>
 <td>Information Rating</td>
-<td><select name="rating">
+<td><select name="rating" required>
 <option>Poor</option>
 <option>Average</option>
 <option>Informative</option>
@@ -38,13 +46,15 @@ No<input type="radio" name="rd1">
 </tr>
 <tr><td>How did you get to know about Kriya?</td>
 <td>Ads<input type="checkbox" name="ck1">
-<td>Newspaper<input type="checkbox" name="ck1">
-<td>Social Media<input type="checkbox" name="ck1">
-<td>Friends<input type="checkbox" name="ck1">
-<td>Others<input type="checkbox" name="ck1">
+Newspaper<input type="checkbox" name="ck1">
+Social Media<input type="checkbox" name="ck1">
+Friends<input type="checkbox" name="ck1">
+Others<input type="checkbox" name="ck1">
 </td>
 </tr>
-<tr><td><input type="submit" value="Submit"></td></tr>
-<tr><td><input type="reset" value="Reset"></td></tr>
+<tr id="button"><td><input type="submit" value="Submit"></td>
+    <td><input type="reset" value="Reset"></td>
+</tr>
 </table>
+</form>
 </html>

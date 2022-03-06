@@ -4,12 +4,59 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kriya Events</title>
+  <style>
+    #head{
+      color: purple;
+      background-color: orangered;
+      text-align: center; 
+      font-size: x-large;
+      height: 20%;
+    }
+    #links{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;    
+      text-align: center;
+      padding-left: 10%;
+      background-color: orangered;
+    }
+    .box{
+      font-size: large;
+      padding: 20px;
+      text-align: justify; 
+      width: 40%;
+    }
+    .box img{
+      border-radius: 100px;
+      width: 200px;
+      height: 200px;
+    }
+    .box a{
+      text-decoration: none;
+    }
+  </style>
 </head>
 <body bgcolor="yellow" text="black">
-<A href="mainsite.html">Home</A>
-<H1><center>CIRCUITS</H1></center>
-<A href="sitea.html">ELECTRIQUE<img src="images/picb.jpg" border="1"></A>
-<A href="siteb.html"><br>CLIP AND CLAMP<img src="images/picb.jpg" border="1"></A>
-<P>Click on the circuits for more details</P>
+<div id="head">
+  <H1>CIRCUITS</H1>
+</div>
+<div id="links">
+  <div class="box">
+    <A href="sitea.html"><img src="images/pic1.jpg">
+    <h1>ELECTRIQUE</h1></A>
+      Well, well, well...Are you a tech geek who is acquainted with 
+      the field of electrical machines? Waiting to showcase your skills
+      and knowledge? Then this event is right for you . We have designed
+      this event as a mixture of both fun and facts in the right amount.
+  </div>
+  <div class="box">
+    <A href="siteb.html"><img src="images/pic2.jpg">
+    <h1>CLIP AND CLAMP</h1></A>
+      Clip and Clamp is a design event based on Digital Electronics.
+      Participants are supposed to design the circuit and simulate the
+      appropriate output. This event serves as a platform to showcase 
+      the participants individuality by examining the technical thinking of them. 
+  </div>
+</div>  
 </body>
 </html>
